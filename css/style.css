@@ -1,0 +1,52 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: auto;
+}
+:root{
+    --primary : #52CED5 !important;
+    --dark: #161616
+    --pure: #FFFFFF;
+    --ternary: #898989;
+    --light: #F2F2F2;
+}
+/* navbar slide */
+.sticky{
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    z-index: 9999;
+    background-color: #161616;
+}
+/* banner section start from here */
+.header{
+    background-color: #161616;
+}
+#banner{
+    background-color: #161616;
+    clip-path: polygon(0 0,100% 0,100% 100%,70% 80%,0 100%);
+}
+.nav-list li a:hover{
+    color: #52CED5 !important;
+}
+.btn-bg{
+    background-color: #52CED5;
+}
+.btn-color{
+    color: #52CED5;
+    background-color: transparent;
+}
+.btn-color:hover{
+    background-color: #52CED5;
+    color: black;
+}
+.contact-btn{ 
+    font-size: 1.2rem;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border: 2px solid #52CED5;
+}
+.text-design{
+    color: var(--primary);
+}
